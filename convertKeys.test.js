@@ -1,6 +1,5 @@
 const { expect } = require("@jest/globals");
 const convertKeys = require("./convertKeys");
-const convert = require("./convertKeys");
 
 test("returns the weekdays as key along with their frequency as object", () => {
 	testData = {
